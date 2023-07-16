@@ -1,24 +1,23 @@
 #include <stdio.h>
+
 /**
  * main - Entry Point
- * Return : Always 0 Success
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-        int n = 97;
-	int m = 65;
+    char alphabet = 'a';
 
-	while (n <= 122)
-	{
-		putchar(n);
-		n++;
-	}
-	while (m <= 98)
-	{
-		putchar(m);
-		n++;
-	}
-	putchar('\n');
-	return (0);
+    while (alphabet <= 'z')
+    {
+        if (alphabet != 'q' && alphabet != 'e')
+        {
+            putchar(alphabet);
+        }
+        alphabet++;
+    }
+
+    putchar('\n');
+    return 0;
+
 }
