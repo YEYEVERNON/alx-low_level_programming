@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Print all
+ * Description - smallest combination
  * Return - always 0
  *
  */
