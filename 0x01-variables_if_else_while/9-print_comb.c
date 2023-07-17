@@ -5,7 +5,6 @@
  *
  * Return : always 0
  */
-
 int main(void)
 {
 	int i;
@@ -15,6 +14,7 @@ int main(void)
 		putchar(i + '0');
 		putchar(',');
 		putchar(' ');
+
 	}
 	return (0);
 
