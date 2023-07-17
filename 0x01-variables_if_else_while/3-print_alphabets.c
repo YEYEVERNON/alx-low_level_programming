@@ -6,18 +6,25 @@
  */
 int main(void)
 {
-    char alphabet = 'a';
+	char x;
 
-    while (alphabet <= 'z')
-    {
-        if (alphabet != 'q' && alphabet != 'e')
-        {
-            putchar(alphabet);
-        }
-        alphabet++;
-    }
+	char y;
 
-    putchar('\n');
-    return 0;
+	x = 'a'
+	y = 'A';
+	while 
+	(x <= 'z'
+	 {
+	 putchar(x);
+	 x++;
+	 }
+	 while
+	 (y <= 'z')
+	 {
+	 putchar (y);
+	 y++;
+	 }
+	 putchar('\n');
+	 return (0);
 
-}
+	 }
