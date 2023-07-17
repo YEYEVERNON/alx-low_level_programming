@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-/** 
- * main - Print all 
+/**
+ * main - Print all
  * Return - always 0
  *
  */
