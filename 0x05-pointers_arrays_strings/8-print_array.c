@@ -14,7 +14,7 @@ void print_array(int *a, int n)
         printf("%d, ", a[i]);
     }
 
-    if (n > 0) // Check if there is at least one element in the array
+    if (n > 0)
     {
         printf("%d", a[n - 1]);
     }
