@@ -1,4 +1,4 @@
-#include5-rev_string.c "main.h"
+#include "main.h"
 /**
  * rev_string - Reverse a string and print
  * @S - Input string
