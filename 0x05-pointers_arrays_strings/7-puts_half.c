@@ -5,7 +5,7 @@
  * @s: string
  * Return: length
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int j = 0;
 	int k;
