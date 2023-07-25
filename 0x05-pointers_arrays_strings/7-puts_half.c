@@ -5,14 +5,19 @@
  * @s: string
  * Return: length
  */
-void puts_half(char *s)
+void puts2(char *str)
 {
-	int longi = 0;
+	int i;
+	int j = 0;
 
-	while (*s != '\n')
+	while (str[j] != '\')
 	{
-		longi++;
-		s++;
+		j++;
 	}
-	return (longi);
+
+	for (i = 0; i < j; i +=2)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
